@@ -1,0 +1,5 @@
+{
+  "name": "Story Spark",
+  "description": "An AI-powered application to create prompt templates, generate stories, expand them on a canvas, auto-format content, and produce professional short video storyboards with AI-generated images for each scene. All your work is saved locally.",
+  "requestFramePermissions": []
+}

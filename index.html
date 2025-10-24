@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Story Spark</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              'brand-primary': '#1e3a8a',
+              'brand-secondary': '#3b82f6',
+              'brand-light': '#dbeafe',
+              'brand-dark': '#1e1b4b',
+              'base-100': '#f8fafc',
+              'base-200': '#e2e8f0',
+              'base-300': '#cbd5e1',
+              'base-content': '#0f172a',
+              'dark-100': '#0c101d',
+              'dark-200': '#171e31',
+              'dark-300': '#2f3b54',
+              'dark-content': '#dbeafe',
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/"
+  }
+}
+</script>
+</head>
+  <body class="bg-base-100 dark:bg-dark-100 text-base-content dark:text-dark-content">
+    <div id="root"></div>
+  </body>
+</html>
